@@ -4,12 +4,12 @@ let count = 0
 
 console.log(saveEl)
 
-function increment() {
+function Lisää() {
     count += 1
     countEl.innerText = count
 }
 
-function save() {
+function Tallenna() {
     let countStr = count + " - "
     saveEl.innerText += countStr
     console.log(count)
